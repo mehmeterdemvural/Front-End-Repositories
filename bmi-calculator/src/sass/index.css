@@ -16,14 +16,14 @@ body {
   margin: 20px;
 }
 .mainContainer h1 {
-  font-size: calc(1.4rem + 1vw);
+  font-size: calc(1.4rem + 0.7vw);
   font-weight: bolder;
   color: #000;
   text-align: center;
   margin-bottom: 30px;
 }
 .mainContainer h2 {
-  font-size: calc(1.3rem + 1vw);
+  font-size: calc(1.3rem + 0.7vw);
   font-weight: bold;
   color: #000;
   text-align: left;
@@ -31,13 +31,13 @@ body {
 }
 .mainContainer p {
   text-align: justify;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.5rem + 0.7vw);
   color: #000;
   text-indent: 10px;
 }
 .mainContainer table {
   border: 1px solid #000;
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.5rem + 0.7vw);
 }
 .mainContainer table tr {
   border: 1px solid #000;
@@ -49,7 +49,7 @@ body {
 }
 .mainContainer table tr th {
   padding: 10px;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.6rem + 0.7vw);
   font-weight: bold;
   border: 1px solid #000;
   background-color: #f2f2f2;
@@ -81,7 +81,7 @@ body {
   font-size: 1rem;
   color: #000;
   text-indent: 10px;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.6rem + 0.7vw);
   text-align: justify;
 }
 .infoContainer a {
@@ -119,7 +119,7 @@ body {
   background-color: #fff;
 }
 .homeContainer .row label {
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.6rem + 0.7vw);
   font-weight: bold;
   color: #000;
   text-align: center;
@@ -127,7 +127,7 @@ body {
   margin-top: 10px;
 }
 .homeContainer .row input {
-  font-size: calc(0.5rem + 1vw);
+  font-size: calc(0.5rem + 0.7vw);
   width: 100%;
   padding: 10px;
   border: 1px solid #000;
@@ -147,7 +147,7 @@ body {
   box-shadow: 0 0 10px #000;
   background-color: #333;
   color: #fff;
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.6rem + 0.7vw);
   font-weight: bold;
 }
 .homeContainer button:hover {
@@ -172,7 +172,7 @@ body {
   padding: 10px;
 }
 .footerContainer a {
-  font-size: calc(0.6rem + 1vw);
+  font-size: calc(0.6rem + 0.7vw);
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -207,7 +207,7 @@ body {
   height: 10vh;
 }
 .headerContainer h1 {
-  font-size: calc(1.5rem + 1vw);
+  font-size: calc(1.5rem + 0.7vw);
   font-weight: bolder;
   color: #000;
   text-align: center;
@@ -216,8 +216,9 @@ body {
 .headerContainer a {
   text-decoration: none;
   font-weight: bold;
-  font-size: calc(0.8rem + 1vw);
+  font-size: calc(0.8rem + 0.7vw);
   color: #000;
+  margin-bottom: 10px;
 }
 .headerContainer .active {
   text-decoration: overline;
